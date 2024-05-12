@@ -255,7 +255,34 @@ const OrderScreen = () => {
                     </Button>
                   </ListGroup.Item>
                 )}
+
             </ListGroup>
+            {order.isDelivered &&
+              <div className="go">
+                <div>
+
+                  <Link className='go' to={`/product/play`}>
+                    Go to Course
+                  </Link>
+                </div>
+              </div>}
+            {!order.isDelivered &&
+              <>
+
+                <div className="notgo">
+                  <div>
+
+                    <div className='' to={``}>
+                      Go to Course
+                    </div>
+                  </div>
+
+                </div>
+                <div className=' hide '>First get the course paid and delivered!!</div>
+
+              </>
+            }
+
           </Card>
         </Col>
       </Row>

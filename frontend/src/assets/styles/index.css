@@ -2,6 +2,49 @@ main {
   min-height: 80vh;
 }
 
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.cursor {
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.custom-width {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 20% 80%;
+}
+
+.flex>* {
+  max-width: 100xp;
+}
+
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .rating span {
   margin: 0.1rem;
 }
@@ -17,10 +60,14 @@ main {
 }
 
 .product-title {
-  height: 2.5em; /* Set a fixed height */
-  overflow: hidden; /* Hide overflow content */
-  text-overflow: ellipsis; /* Add ellipsis for long text */
-  white-space: nowrap; /* Prevent wrapping */
+  height: 2.5em;
+  /* Set a fixed height */
+  overflow: hidden;
+  /* Hide overflow content */
+  text-overflow: ellipsis;
+  /* Add ellipsis for long text */
+  white-space: nowrap;
+  /* Prevent wrapping */
 }
 
 table td,

@@ -1,0 +1,43 @@
+.go {
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 8px;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+
+    min-height: 100px;
+    ;
+}
+
+.notgo {
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+
+    min-height: 100px;
+    ;
+}
+
+.hide {
+    display: none;
+
+}
+
+.notgo:hover+.hide {
+    display: block;
+    color: red;
+    text-align: center;
+
+}
