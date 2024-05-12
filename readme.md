@@ -2,6 +2,14 @@
 
 > eCommerce platform built with the MERN stack & Redux.
 
+>checkout ID: sb-qlt47q30784212@personal.example.com
+>Checkout Pass: 88888888
+
+>to run backend : cd backend then nodemon server.js
+>to run frontend : cd frontend then npm start
+
+> go to http://localhost:3000 
+
 
 
 - [Features](#features)
